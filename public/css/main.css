@@ -1,0 +1,220 @@
+/* html,
+body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  text-align: center;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.m-b-md {
+  margin-bottom: 30px;
+}
+
+footer {
+  background: #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  text-transform: uppercase;
+  border-bottom: 2px solid;
+  
+  
+}
+
+.wrapper {
+  max-width: 1140px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+/* create pizza form */
+
+/* .create-pizza {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.create-pizza label,
+.create-pizza select {
+  display: block;
+}
+
+.create-pizza label {
+  margin-top: 30px;
+}
+
+.create-pizza select {
+  padding: 8px;
+  width: 200px;
+}
+
+.create-pizza input[type=checkbox] {
+  margin: 10px;
+}
+
+.create-pizza input[type=submit] {
+  background: #5e2195;
+  padding: 8px 20px;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+
+/* pizza details page */
+
+/* .pizza-details {
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.pizza-details p {
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+.pizza-details button {
+  background: #5e2195;
+  padding: 8px 20px;
+  color: #fff;
+  border: 0;
+  margin-top: 20px;
+}
+
+a.back {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  color: #5e2195;
+  margin-bottom: 20px;
+}
+
+/* pizza index page */
+
+/* .pizza-index h1 {
+  margin-bottom: 40px;
+} 
+
+.pizza-index .pizza-item {
+  margin: 10px 0;
+  padding: 12px;
+  background: #f4f4f4;
+}
+
+.pizza-index .pizza-item img {
+  width: 60px;
+  display: inline-block;
+}
+
+.pizza-index .pizza-item h4 {
+  display: inline-block;
+  font-weight: normal;
+  margin-left: 20px;
+}
+
+.pizza-index .pizza-item h4 a {
+  color: #777;
+  text-decoration: none !important;
+}
+
+img {
+  width: 400px;
+} */
+header{
+    background:url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.paginacja nav{
+  background-color: #f57c00;
+  width: 400px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  border-radius: 25px;
+}
+.paginacja nav ul{
+  
+  display: inline-block;
+  margin: auto;
+}
+.pagination li.active{
+  background-color: #f57c00;
+}
+
+.malyguzik{
+  width: 10vw;
+}
+.tlo{
+ background-color: rgba(0, 0, 0, 0.63);
+ height: 95vh;
+ padding-left: 60px;
+ padding-right: 60px;
+}
+.guzik{
+  width: 30vw;
+}
+header .sidenav a{
+    color: #fff;
+}
+
+.img-logo{
+    width: 30px;
+
+}
+@media screen and (max-width: 670px) {
+header{
+    min-height: 500px;
+    } 
+}
+
+.section{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.tabs .indicator{
+    background-color: #333333;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: rgba(92, 92, 92, 0.14);
+}
